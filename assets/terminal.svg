@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 215" width="680" height="215">
+  <defs>
+    <!-- Dark gradient for titlebar -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#21262d" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+
+    <!-- Typing paths for 4 looped lines -->
+    <path id="typePath0">
+      <animate id="d0" attributeName="d" begin="0s;d3.end" dur="4200ms" fill="remove"
+        values="m84,138 h0 ; m84,138 h570 ; m84,138 h570 ; m84,138 h0" keyTimes="0;0.52;0.85;1" />
+    </path>
+    <path id="typePath1">
+      <animate id="d1" attributeName="d" begin="d0.end" dur="4200ms" fill="remove"
+        values="m84,138 h0 ; m84,138 h570 ; m84,138 h570 ; m84,138 h0" keyTimes="0;0.52;0.85;1" />
+    </path>
+    <path id="typePath2">
+      <animate id="d2" attributeName="d" begin="d1.end" dur="4200ms" fill="remove"
+        values="m84,138 h0 ; m84,138 h570 ; m84,138 h570 ; m84,138 h0" keyTimes="0;0.52;0.85;1" />
+    </path>
+    <path id="typePath3">
+      <animate id="d3" attributeName="d" begin="d2.end" dur="4200ms" fill="remove"
+        values="m84,138 h0 ; m84,138 h570 ; m84,138 h570 ; m84,138 h0" keyTimes="0;0.52;0.85;1" />
+    </path>
+  </defs>
+
+  <style>
+    .font-mono {
+      font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, Monaco, 'Courier New', monospace;
+    }
+  </style>
+
+  <!-- Terminal Window Frame -->
+  <rect x="1" y="1" width="678" height="213" rx="10" ry="10" fill="#0D1117" stroke="#30363D" stroke-width="1.5" />
+
+  <!-- Terminal Header / Titlebar -->
+  <path d="M1,11 A10,10 0 0,1 11,1 L669,1 A10,10 0 0,1 679,11 L679,38 L1,38 Z" fill="url(#headerGrad)" />
+  <line x1="1" y1="38" x2="679" y2="38" stroke="#30363D" stroke-width="1" />
+
+  <!-- Traffic Lights (macOS Window Control Dots) -->
+  <circle cx="22" cy="19" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width="0.5" />
+  <circle cx="42" cy="19" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width="0.5" />
+  <circle cx="62" cy="19" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width="0.5" />
+
+  <!-- Window Title -->
+  <text x="340" y="24" fill="#8B949E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="500" text-anchor="middle">
+    zzjq@developer-station: ~ (zsh)
+  </text>
+
+  <!-- Line 1: Command execution -->
+  <text x="24" y="72" class="font-mono" font-size="14">
+    <tspan fill="#7EE787" font-weight="600">➜</tspan>
+    <tspan fill="#79C0FF" font-weight="600"> ~</tspan>
+    <tspan fill="#C9D1D9"> ./init-profile.sh</tspan>
+  </text>
+
+  <!-- Line 2: Output status -->
+  <text x="24" y="102" class="font-mono" font-size="13" fill="#8B949E">
+    [system] Environment ready. Loading dev profile:
+  </text>
+
+  <!-- Line 3: Prompt prefix -->
+  <text x="24" y="138" class="font-mono" font-size="14">
+    <tspan fill="#7EE787" font-weight="600">➜</tspan>
+    <tspan fill="#79C0FF" font-weight="600"> ~</tspan>
+    <tspan fill="#58A6FF" font-weight="600"> $</tspan>
+  </text>
+
+  <!-- Typewriter Lines on Line 3 -->
+  <text class="font-mono" font-size="14" font-weight="500" fill="#38BDF8">
+    <textPath xlink:href="#typePath0">🚀 Backend Developer | Go, Java &amp; Cloud Native</textPath>
+  </text>
+
+  <text class="font-mono" font-size="14" font-weight="500" fill="#38BDF8">
+    <textPath xlink:href="#typePath1">🤖 Building AI Agents &amp; Intelligent Workflows</textPath>
+  </text>
+
+  <text class="font-mono" font-size="14" font-weight="500" fill="#38BDF8">
+    <textPath xlink:href="#typePath2">⚡ High-Performance Microservices &amp; Systems</textPath>
+  </text>
+
+  <text class="font-mono" font-size="14" font-weight="500" fill="#38BDF8">
+    <textPath xlink:href="#typePath3">🌱 Lifelong Learner &amp; Open Source Enthusiast</textPath>
+  </text>
+
+  <!-- Line 4: Next prompt with blinking cursor -->
+  <text x="24" y="174" class="font-mono" font-size="14">
+    <tspan fill="#7EE787" font-weight="600">➜</tspan>
+    <tspan fill="#79C0FF" font-weight="600"> ~</tspan>
+    <tspan fill="#E6EDF3"> </tspan>
+  </text>
+
+  <!-- Blinking Cursor -->
+  <rect x="62" y="161" width="8" height="15" fill="#38BDF8">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite" />
+  </rect>
+
+  <text x="80" y="174" class="font-mono" font-size="12" fill="#484F58">
+    # ready for collaboration
+  </text>
+</svg>

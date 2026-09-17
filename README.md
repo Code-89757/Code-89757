@@ -1,10 +1,10 @@
 <div align="center">
   <h1>Hi there, I'm zzjq 👋</h1>
 
-  <!-- Typing SVG Animation -->
-  <a href="https://github.com/Code-89757">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=580&lines=%F0%9F%9A%80+Backend+Developer+%7C+Go+%26+Cloud+Native;%F0%9F%A4%96+Building+AI+Agents+%26+Intelligent+Data+Workflows;%E2%9A%A1+Passionate+about+High-Performance+Microservices;%F0%9F%8C%B1+Continuous+Learner+%26+Open+Source+Enthusiast" alt="Typing SVG" />
-  </a>
+  <!-- Terminal Window with Typewriter Effect -->
+  <p align="center">
+    <img src="./assets/terminal.svg" alt="Terminal" width="680" />
+  </p>
 
   <p align="center">
     <img src="https://komarev.com/ghpvc/?username=Code-89757&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Visitors" />
