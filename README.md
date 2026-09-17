@@ -23,13 +23,21 @@
 - 🛠 **Architecture & Ops**: 深入实践 **Docker / Kubernetes** 容器化、**gRPC** 高性能调用、**MySQL / Redis** 存储调优与海量数据集成（SeaTunnel / ETL）。
 - 🌱 **Learning & Growth**: 持续跟踪 AI Agentic Design Pattern、云原生技术演进与开源项目架构设计。
 - 🎯 **Philosophy**: *“Keep coding, stay curious, and build things that matter.”* (代码即创作，专注打磨高价值系统)
-- 📫 **How to reach me**: 欢迎技术探讨与开源协作，可通过邮箱 [`294014723@qq.com`](mailto:294014723@qq.com) 与我联系。
+- 📫 **How to reach me**: 欢迎技术探讨与交流，可通过 Telegram [@zzjqqbb](https://t.me/zzjqqbb)、Discord `zzjq_` 或邮箱 [`294014723@qq.com`](mailto:294014723@qq.com) 联系我。
 
 ---
 
 ### 🤝 Connect with Me (联系方式)
 
 <p align="center">
+  <a href="https://t.me/zzjqqbb" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-@zzjqqbb-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+  </a>
+  &nbsp;
+  <a href="https://discord.com/users/zzjq_" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-zzjq__-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  &nbsp;
   <a href="mailto:294014723@qq.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-294014723%40qq.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
@@ -42,3 +50,11 @@
     <img src="https://img.shields.io/badge/QQ-294014723-12B7F5?style=for-the-badge&logo=tencentqq&logoColor=white" alt="QQ" />
   </a>
 </p>
+
+<details align="center">
+  <summary><b>📱 Scan Telegram QR Code (点击展开 Telegram 二维码)</b></summary>
+  <br/>
+  <p align="center">
+    <img src="./assets/telegram_qr.png" alt="Telegram QR" width="220" />
+  </p>
+</details>
