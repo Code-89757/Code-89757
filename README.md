@@ -1,6 +1,5 @@
 <div align="center">
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=200&section=header&text=Hi%20there,%20I'm%20zzjq%20👋&fontSize=42&fontAlignY=38&desc=Backend%20Engineer%20%7C%20Cloud%20Native%20%26%20AI%20Agent%20Explorer&descAlignY=62&descAlign=50" width="100%"/>
+  <h1>Hi there, I'm zzjq 👋</h1>
 
   <!-- Typing SVG Animation -->
   <a href="https://github.com/Code-89757">
@@ -28,49 +27,6 @@
 
 ---
 
-### 🛠 Tech Stack & Toolkit (技术栈与工具箱)
-
-<div align="center">
-  <!-- Skill Icons Grid -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=go,java,php,python,mysql,redis,postgres,kafka,docker,kubernetes,linux,nginx,git,githubactions,idea,vscode&perline=8" alt="Tech Stack Icons" />
-  </a>
-</div>
-
-<br/>
-
-<details open>
-  <summary><b>🧩 Detailed Classification (详细技术领域)</b></summary>
-  <br/>
-
-| 领域 / Domain | 技术与工具 / Technologies |
-| :--- | :--- |
-| **编程语言 / Languages** | `Go` · `Java` · `PHP` · `Python` · `SQL` · `Bash / Shell` |
-| **后端框架 / Frameworks** | `Gin` · `Spring Boot` · `gRPC` · `Protobuf` · `RESTful APIs` |
-| **存储与中间件 / Data & Cache** | `MySQL` · `Redis` · `PostgreSQL` · `Kafka` · `SeaTunnel (ETL)` |
-| **容器与云原生 / DevOps** | `Docker` · `Kubernetes` · `Linux` · `Nginx` · `Git` · `CI/CD` |
-| **AI 与智能体 / AI & Agents** | `AI Agents` · `LLM Application` · `Prompt Engineering` · `RAG / Workflow` |
-| **开发工具 / Productivity** | `IntelliJ IDEA` · `GoLand` · `PhpStorm` · `VS Code` · `Postman` |
-
-</details>
-
----
-
-### 📊 GitHub Analytics (数据与动态)
-
-<div align="center">
-  <p align="center">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Code-89757&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="zzjq's GitHub Stats" />
-    &nbsp;&nbsp;
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Code-89757&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-  </p>
-  <p align="center">
-    <img src="https://streak-stats.demolab.com/?user=Code-89757&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-  </p>
-</div>
-
----
-
 ### 🤝 Connect with Me (联系方式)
 
 <p align="center">
@@ -86,8 +42,3 @@
     <img src="https://img.shields.io/badge/QQ-294014723-12B7F5?style=for-the-badge&logo=tencentqq&logoColor=white" alt="QQ" />
   </a>
 </p>
-
-<!-- Footer Wave -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=120&section=footer" width="100%"/>
-</div>
